@@ -3,6 +3,8 @@ const app = express();
 const PORT = process.env.port || 3000;
 import cors from 'cors';
 
+import router from './router/index.js';
+
 // midleware to parse json ✅
 // import router to anime ✅
 // route /anime ✅
@@ -19,7 +21,7 @@ app.get('/', function (req, res) {
   });
 });
 
-// app.use('/anime', routerAnime);
+app.use('/projects', router);
 
 // app.get('/', function (req, res) {
 //   res.sendFile(html);
@@ -27,5 +29,4 @@ app.get('/', function (req, res) {
 
 app.listen(PORT, function () {
   console.log(`Server is running on port ${PORT}`);
-  
 });
