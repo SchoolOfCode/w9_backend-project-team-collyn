@@ -1,3 +1,5 @@
+// Working on img urls for in here!
+
 export const projects = [
   {
     name: 'Bob',
