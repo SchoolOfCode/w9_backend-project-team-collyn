@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
     const name = req.query.name;
     const aval = req.query.aval;
     let data = await query(
-      `SELECT * FROM projects WHERE project_type = $1 AND availability = $2`,
+      `SELECT * FROM projects WHERE project_type = $1 AND availability = $2 LIMIT 3`,
       [name, aval]
     ); // WHERE value is going to change depending on what we want to match with - at least for MV
     res.json(data.rows);
