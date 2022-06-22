@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express();
-const PORT = process.env.port || 5000;
+const PORT = process.env.port || 5500;
 import cors from 'cors';
 
 import router from './router/index.js';
@@ -30,3 +30,5 @@ app.use('/projects', router);
 app.listen(PORT, function () {
   console.log(`Server is running on port ${PORT}`);
 });
+
+export default app;
