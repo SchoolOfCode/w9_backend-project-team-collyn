@@ -12,10 +12,10 @@ export const projects = [
   {
     name: 'Jim',
     project_interest: 'Games',
-    project_type: 'Games',
+    project_type: 'Gallery',
     strength: 'Frontend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://imgur.com/a/pTaNkgO',
   },
   {
     name: 'Ella',
@@ -23,7 +23,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/BjgOgCo.png',
   },
   {
     name: 'Sally',
@@ -31,7 +31,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Testing',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/iKOABlY.png',
   },
   {
     name: 'Penny',
@@ -47,7 +47,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Testing',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/NXJJ9RA.png',
   },
   {
     name: 'Peter',
@@ -55,7 +55,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Testing',
     availability: 'Weekends',
-    img: '',
+    img: 'https://imgur.com/a/pTaNkgO',
   },
   {
     name: 'Oscar',
@@ -63,7 +63,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Frontend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/zuqUYvz.png',
   },
   {
     name: 'Sarah',
@@ -87,7 +87,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/YbIU2YV.png',
   },
   {
     name: 'Anthony',
@@ -95,7 +95,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Frontend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/UzGikhS.png',
   },
   {
     name: 'Marie',
@@ -103,7 +103,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Testing',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/D8Pcfdo.png',
   },
   {
     name: 'Pablo',
@@ -111,7 +111,7 @@ export const projects = [
     project_type: 'To-do List',
     strength: 'Fullstack',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/nIPGuzQ.png',
   },
   {
     name: 'Eponine',
@@ -119,7 +119,7 @@ export const projects = [
     project_type: 'Survey',
     strength: 'Fullstack',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/oNfY7Ae.png',
   },
   {
     name: 'Leyla',
@@ -127,7 +127,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Fullstack',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/OosXG7U.png',
   },
   {
     name: 'Corinne',
@@ -135,7 +135,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Frontend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/iKOABlY.png',
   },
   {
     name: 'Claire',
@@ -143,7 +143,7 @@ export const projects = [
     project_type: 'To-do List',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/oNfY7Ae.png',
   },
   {
     name: 'Alex',
@@ -151,7 +151,7 @@ export const projects = [
     project_type: 'To-do List',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/UzGikhS.png',
   },
   {
     name: 'Maxime',
@@ -159,7 +159,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Frontend',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/YbIU2YV.png',
   },
   {
     name: 'Ola',
@@ -175,7 +175,7 @@ export const projects = [
     project_type: 'Survey',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/nIPGuzQ.png',
   },
   {
     name: 'Clara',
@@ -183,7 +183,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Backend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/D8Pcfdo.png',
   },
   {
     name: 'Ali',
@@ -199,7 +199,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://imgur.com/a/0LINwUN',
   },
   {
     name: 'Ibrahim',
@@ -223,7 +223,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Backend',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/BjgOgCo.png',
   },
   {
     name: 'Yasmin',
@@ -239,7 +239,7 @@ export const projects = [
     project_type: 'Survey',
     strength: 'Backend',
     availability: 'Flexible',
-    img: '',
+    img: 'https://imgur.com/a/0LINwUN',
   },
   {
     name: 'Harry',
@@ -247,7 +247,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Fullstack',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/zuqUYvz.png',
   },
   {
     name: 'Luna',
@@ -255,7 +255,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Backend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/OosXG7U.png',
   },
   {
     name: 'Imaan',
@@ -271,7 +271,7 @@ export const projects = [
     project_type: 'Survey',
     strength: 'Frontend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/QBwwT0Q.png',
   },
   {
     name: 'Natalja',
@@ -287,7 +287,7 @@ export const projects = [
     project_type: 'To-do list',
     strength: 'Backend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/NXJJ9RA.png',
   },
   {
     name: 'Adi',
