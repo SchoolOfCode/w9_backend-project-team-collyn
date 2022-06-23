@@ -7,7 +7,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Backend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/a6WqdTd.png',
   },
   {
     name: 'Jim',
@@ -39,7 +39,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Testing',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/u1XTsdQ.png',
   },
   {
     name: 'Roger',
@@ -71,7 +71,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/2lJm97s.png',
   },
   {
     name: 'Emma',
@@ -79,7 +79,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Fullstack',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/y67HEDI.png',
   },
   {
     name: 'Roman',
@@ -167,7 +167,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Fullstack',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/SBQiwtW.png',
   },
   {
     name: 'Remi',
@@ -191,7 +191,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Frontend',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/J5BqqcT.png',
   },
   {
     name: 'Laith',
@@ -207,7 +207,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/J5BqqcT.png',
   },
   {
     name: 'Leonie',
@@ -215,7 +215,7 @@ export const projects = [
     project_type: 'To-do List',
     strength: 'Frontend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/xDBI7hj.png',
   },
   {
     name: 'Nesma',
@@ -231,7 +231,7 @@ export const projects = [
     project_type: 'Forum',
     strength: 'Backend',
     availability: 'Weekends',
-    img: '',
+    img: 'https://i.imgur.com/kygDWAv.png',
   },
   {
     name: 'Diego',
@@ -263,7 +263,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Fullstack',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/BjgOgCo.png',
   },
   {
     name: 'Annabel',
@@ -279,7 +279,7 @@ export const projects = [
     project_type: 'Blog',
     strength: 'Frontend',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/xDBI7hj.png',
   },
   {
     name: 'Konstantin',
@@ -295,7 +295,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Fullstack',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/SBQiwtW.png',
   },
   {
     name: 'Yune-Keow',
@@ -303,7 +303,7 @@ export const projects = [
     project_type: 'Survey',
     strength: 'Fullstack',
     availability: 'Flexible',
-    img: '',
+    img: 'https://i.imgur.com/UzGikhS.png',
   },
   {
     name: 'Shivani',
@@ -311,7 +311,7 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Fullstack',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/kygDWAv.png',
   },
   {
     name: 'Rivkah',
@@ -319,6 +319,6 @@ export const projects = [
     project_type: 'Gallery',
     strength: 'Fullstack',
     availability: 'Evenings',
-    img: '',
+    img: 'https://i.imgur.com/y67HEDI.png',
   },
 ];
