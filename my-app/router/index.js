@@ -7,18 +7,22 @@ import { query } from '../db/index.js';
 // post request
 
 router.get('/', async (req, res) => {
-  if (req.query.name !== undefined) {
-    const name = req.query.name;
-    const aval = req.query.aval;
-    let data = await query(
-      `SELECT * FROM projects WHERE project_type = $1 AND availability = $2 LIMIT 3`,
-      [name, aval]
-    ); // WHERE value is going to change depending on what we want to match with - at least for MV
+  try {
+    if (req.query.name !== undefined) {
+      const name = req.query.name;
+      const aval = req.query.aval;
+      let data = await query(
+        `SELECT * FROM projects WHERE project_type = $1 AND availability = $2 LIMIT 3`,
+        [name, aval]
+      );
+      res.json(data.rows);
+      return;
+    }
+    let data = await query(`SELECT * from projects`);
     res.json(data.rows);
-    return;
+  } catch (error) {
+    console.error(error.message);
   }
-  let data = await query(`SELECT * from projects`);
-  res.json(data.rows);
 });
 
 router.get('/type', async (req, res) => {

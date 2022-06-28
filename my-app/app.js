@@ -1,13 +1,12 @@
 import express from 'express';
-const app = express();
 const PORT = process.env.port || 5000;
 import cors from 'cors';
-
 import router from './router/index.js';
 
 // midleware to parse json ✅
 // import router to anime ✅
 // route /anime ✅
+const app = express();
 
 app.use(express.json());
 app.use(cors());
@@ -27,6 +26,9 @@ app.use('/projects', router);
 //   res.sendFile(html);
 // });
 
-app.listen(PORT, function () {
-  console.log(`Server is running on port ${PORT}`);
-});
+// app.listen(PORT, function () {
+//   console.log(`Server is running on port ${PORT}`);
+// });
+// UNCOMMENT TO START THE APP, NO NEED FOR TESTING
+
+export default app;
