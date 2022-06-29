@@ -7,7 +7,7 @@ afterAll(() => {
   pool.end();
 });
 
-it('GETS all projects and read first object value of name = Bob', async function () {
+it('GETS all projects and read first object value of name = "Bob"', async function () {
   const response = await request(app)
     .get('/projects')
     .set('Accept', 'application/json');

@@ -2,10 +2,6 @@ import express from 'express';
 const router = express.Router();
 import { query } from '../db/index.js';
 
-// get request that will get all of our data ✅
-// get request that will only return the project type
-// post request
-
 router.get('/', async (req, res) => {
   try {
     if (req.query.name !== undefined) {
@@ -34,7 +30,6 @@ router.get('/type', async (req, res) => {
   }
 });
 
-// the same can be done for the other properties of the object from query by changing the path
 
 router.post('/', async (req, res) => {
   try {
