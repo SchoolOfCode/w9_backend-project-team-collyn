@@ -10,7 +10,8 @@ router.get('/', async (req, res) => {
       let data = await query(
         `SELECT * FROM projects WHERE project_type = $1 AND availability = $2 LIMIT 3`,
         [name, aval]
-      ); // Our table has four properties. We chose two out of those four to meet the requirements of our MVP. However, these can be modified to suit user's needs, for instance, get information depending on all of the four properties by adding two more queries.
+      ); // Our table has four properties. We chose two out of those four to meet the requirements of our MVP.
+      //However, these can be modified to suit user's needs, for instance, get information depending on all of the four properties by adding two more queries.
       res.json(data.rows);
       return;
     }
