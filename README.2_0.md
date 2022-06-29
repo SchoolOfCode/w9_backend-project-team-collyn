@@ -1,5 +1,12 @@
-## Intro
-WAIT FOR OTHER GROUP.
+## Intro 
+The purpose of this project was to improve the lives of bootcampers!
+Hence, we created a platform that allows bootcampers to collaborate on side-projects by matching them depending on their preferences. 
+
+The backend of the project includes the following:
+- RESTful API which is used by our front-end.
+- Supported by a Postgresql database.
+- Built and managed in an agile way.
+- Utilise testing for ensuring robust code.
 
 ## Getting Started
 1. `cd` into `my-app` folder. Run `npm i` to install required dependencies.
