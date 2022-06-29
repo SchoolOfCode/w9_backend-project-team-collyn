@@ -38,7 +38,7 @@ To get the biggier picture of how our backend interacts with our frontend, see t
 
 ### Our FrontEnd
 
-If you want to see our frontend repo, click this [link](https://github.com/SchoolOfCode/w9_frontend-project-team-collyn)
+If you want to see our frontend repo, click this [link](https://github.com/SchoolOfCode/w9_frontend-project-team-collyn/blob/main/README-frontend.md)
 
 
 
