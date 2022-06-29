@@ -25,7 +25,7 @@ PGPASSWORD=
 PGPORT=
 ```
 ### Run Scripts
-1. In your terminal run `npm run db:CreateTables` to create a table in your database with our pre made users, which can be found in the libs folder.
+1. In your terminal run `npm run db:CreateTables` to create a table in your database with our pre made users, which can be found in the `libs folder`.
 2. Run `npm db:InsertTables` to populate the table that you just created. These scripts can be found in `package.json`.
 3. Run `npm run dev` to start the server.
 4. Check if its running correcting by opening up the browser with `localhost:5000/projects`. You should see a list of objects with the data from the table that you created.
